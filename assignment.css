@@ -68,3 +68,22 @@ footer {
   background-color: #aaa;
 }
 
+@media screen and (max-width: 768px) {
+
+ main {
+   width: 100%;
+   display: block;
+   align-content: center;
+ }
+
+ .blog {
+   width: 90%;
+   margin: 0 auto 20px auto;
+ }
+
+ .blog:nth-child(3) {
+   margin-right: auto;
+   margin-bottom: 0;
+ }
+
+}
